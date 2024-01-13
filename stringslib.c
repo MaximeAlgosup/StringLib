@@ -102,7 +102,7 @@ size_t str_prefix_accept(const char *str, const char *chars) {
     if (isOk == False){
       return res;
     }
-    ++i
+    ++i;
   }
   return res;
 }

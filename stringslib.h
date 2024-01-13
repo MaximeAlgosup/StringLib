@@ -2,9 +2,14 @@
 #define STRINGSLIB_H
 
 #include <stddef.h>
-
 #define True 1
 #define False 0
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 
 /*
  * Get the size of the string.
