@@ -1,7 +1,12 @@
-# How to use: (Windows)
+# How to use with mingw: (Windows)
 #   cmake -S . -B Build -G "MinGW Makefiles"
 #   cd Build
 #   mingw32-make
+
+# How to use with msys2: (Windows)
+#   cmake -S . -B Build -G "MSYS Makefiles"
+#   cd Build
+#   make
 
 cmake_minimum_required(VERSION 3.10)
 
